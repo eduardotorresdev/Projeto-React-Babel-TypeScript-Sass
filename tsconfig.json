@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		// Indica para qual versão do JS o TS deve compilar
+		"target": "ESNext",
+		// Permite a compilação de arquivos js
+		"allowJs": true,
+		// Indica para não gerar um output,
+		// já que o Babel faz esse papel
+		"noEmit": true,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"baseUrl": "./src",
+	},
+}
